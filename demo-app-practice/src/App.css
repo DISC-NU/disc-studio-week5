@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.Banner {
+  font-size: 70px;
+}
+
+.MSG {
+  font-size: 40px;
+}
+
+.Buttons {
+  display: flex;
+  font-size: 200px;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid black;
+}
+
+.number {
+  font-size: 300px;
+}
+
+.plus {
+  background-color: green;
+  border-radius: 2px;
+  width: 200px;
+  text-align: center;
+}
+
+.plus:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.minus {
+  background-color: red;
+  width: 200px;
+  text-align: center;
+}
+
+.minus:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.reset {
+  width: 200px;
+  border: 1px solid black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+.reset:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
